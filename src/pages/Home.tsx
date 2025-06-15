@@ -24,14 +24,14 @@ const subjects = [
         resources: [
             {
                 name: 'Chapter 1 PDF',
-                path: '/src/data/questions/chemistry/chapter1/chapter1.pdf',
+                path: '/data/questions/chemistry/chapter1/chapter1.pdf',
                 type: 'pdf',
                 icon: FaFilePdf,
                 color: 'red.500'
             },
             {
                 name: 'Chapter 1 Podcast',
-                path: '/src/data/questions/chemistry/chapter1/chapter1.wav',
+                path: '/data/questions/chemistry/chapter1/chapter1.wav',
                 type: 'audio',
                 icon: FaPodcast,
                 color: 'purple.500'
