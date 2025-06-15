@@ -146,32 +146,7 @@ const Home = () => {
                 {/* Hero Section */}
                 <Box textAlign="center" py={6}>
                     <VStack gap={8}>
-                        <HStack gap={4} justify="center" align="center">
-                            <Box
-                                fontSize="6xl"
-                                filter="drop-shadow(0 4px 20px rgba(0,0,0,0.1))"
-                                animation="float 3s ease-in-out infinite"
-                                css={{
-                                    '@keyframes float': {
-                                        '0%, 100%': { transform: 'translateY(0px)' },
-                                        '50%': { transform: 'translateY(-10px)' }
-                                    }
-                                }}
-                            >
-                                🌟📚
-                            </Box>
-                            <Heading
-                                fontSize={{ base: "4xl", md: "6xl" }}
-                                fontWeight="900"
-                                color="white"
-                                textAlign="center"
-                                letterSpacing="-0.02em"
-                                lineHeight="1.1"
-                                textShadow="0 4px 8px rgba(0,0,0,0.3)"
-                            >
-                                Hey Shlok & Friends!
-                            </Heading>
-                        </HStack>
+
                         <VStack gap={4}>
                             <Text
                                 fontSize={{ base: "xl", md: "2xl" }}
