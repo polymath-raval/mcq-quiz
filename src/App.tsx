@@ -45,7 +45,7 @@ function App() {
           maxW="1200px"
           mx="auto"
           px={{ base: 4, md: 8 }}
-          py={{ base: 6, md: 12 }}
+          py={{ base: 2, md: 4 }}
           position="relative"
           zIndex="2"
         >

@@ -90,9 +90,61 @@ const DifficultyDots = ({ difficulty }: { difficulty: string }) => {
 const Home = () => {
     return (
         <Container maxW="6xl" centerContent>
+            {/* Header */}
+            <Box
+                w="100%"
+                py={4}
+                px={6}
+                bg="rgba(255, 255, 255, 0.9)"
+                backdropFilter="blur(10px)"
+                borderRadius="xl"
+                shadow="md"
+                border="1px solid"
+                borderColor="rgba(255, 255, 255, 0.2)"
+                mt={2}
+                mb={8}
+            >
+                <Flex align="center" justify="space-between" flexWrap="wrap" gap={4}>
+                    {/* Logo/Title Section */}
+                    <Flex align="center" gap={3} id="mainHeader">
+                        <Text fontSize="2xl">🎓</Text>
+                        <Box>
+                            <Heading
+                                size="md"
+                                color="gray.800"
+                                fontWeight="700"
+                            >
+                                Shlok's Study Hub
+                            </Heading>
+                            <Text fontSize="xs" color="gray.600" fontWeight="500">
+                                Standard 6 Learning Center
+                            </Text>
+                        </Box>
+                    </Flex>
+
+                    {/* Stats Section */}
+                    <Flex gap={6} align="center">
+                        <Box textAlign="center">
+                            <Text fontSize="lg" fontWeight="700" color="blue.500">6</Text>
+                            <Text fontSize="xs" color="gray.500" fontWeight="600">PAPERS</Text>
+                        </Box>
+                        <Box w="1px" h="6" bg="gray.300" />
+                        <Box textAlign="center">
+                            <Text fontSize="lg" fontWeight="700" color="purple.500">1</Text>
+                            <Text fontSize="xs" color="gray.500" fontWeight="600">SUBJECT</Text>
+                        </Box>
+                        <Box w="1px" h="6" bg="gray.300" />
+                        <Box textAlign="center">
+                            <Text fontSize="lg" fontWeight="700" color="green.500">195</Text>
+                            <Text fontSize="xs" color="gray.500" fontWeight="600">QUESTIONS</Text>
+                        </Box>
+                    </Flex>
+                </Flex>
+            </Box>
+
             <VStack gap={16} w="100%" align="stretch">
                 {/* Hero Section */}
-                <Box textAlign="center" py={12}>
+                <Box textAlign="center" py={6}>
                     <VStack gap={8}>
                         <HStack gap={4} justify="center" align="center">
                             <Box
@@ -106,7 +158,7 @@ const Home = () => {
                                     }
                                 }}
                             >
-                                🎮✨
+                                🌟📚
                             </Box>
                             <Heading
                                 fontSize={{ base: "4xl", md: "6xl" }}
@@ -117,7 +169,7 @@ const Home = () => {
                                 lineHeight="1.1"
                                 textShadow="0 4px 8px rgba(0,0,0,0.3)"
                             >
-                                Welcome to Kids Quiz!
+                                Hey Shlok & Friends!
                             </Heading>
                         </HStack>
                         <VStack gap={4}>
@@ -131,7 +183,18 @@ const Home = () => {
                                 textShadow="0 2px 4px rgba(0,0,0,0.3)"
                                 opacity="0.95"
                             >
-                                Embark on an exciting learning adventure! Choose your favorite subject and dive into interactive quizzes designed to make learning fun and engaging.
+                                Ready to ace your Standard 6 subjects? Jump into these awesome quizzes and challenge yourself while having tons of fun with your classmates!
+                            </Text>
+                            <Text
+                                fontSize={{ base: "lg", md: "xl" }}
+                                color="rgba(255,255,255,0.9)"
+                                maxW="3xl"
+                                textAlign="center"
+                                lineHeight="1.5"
+                                fontWeight="400"
+                                textShadow="0 2px 4px rgba(0,0,0,0.2)"
+                            >
+                                Perfect for Standard 6 students who love learning through play! 🎯
                             </Text>
                         </VStack>
                     </VStack>
@@ -272,7 +335,7 @@ const Home = () => {
                                             textTransform="uppercase"
                                             letterSpacing="wider"
                                         >
-                                            Available Chapters
+                                            Practice Papers
                                         </Text>
                                         <Badge
                                             bg={subject.lightBg}
@@ -283,7 +346,7 @@ const Home = () => {
                                             fontSize="xs"
                                             fontWeight="600"
                                         >
-                                            {subject.chapters.length} chapters
+                                            {subject.chapters.length} papers
                                         </Badge>
                                     </Flex>
 
@@ -336,14 +399,6 @@ const Home = () => {
                                                         <HStack gap={3}>
                                                             <HStack gap={2}>
                                                                 <DifficultyDots difficulty={chapter.difficulty} />
-                                                                <Text
-                                                                    fontSize="xs"
-                                                                    color={chapter.questions > 0 ? "rgba(0,0,0,0.7)" : "gray.600"}
-                                                                    fontWeight="600"
-                                                                    textTransform="capitalize"
-                                                                >
-                                                                    {chapter.difficulty}
-                                                                </Text>
                                                             </HStack>
                                                             <Badge
                                                                 bg={chapter.questions > 0 ? "rgba(255,255,255,0.25)" : "gray.200"}
@@ -400,21 +455,21 @@ const Home = () => {
                         bg="linear-gradient(45deg, rgba(102, 126, 234, 0.05), rgba(240, 147, 251, 0.05))"
                     />
                     <VStack gap={4} position="relative">
-                        <Text fontSize="4xl" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.1))">🌟</Text>
+                        <Text fontSize="4xl" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.1))">🎓✨</Text>
                         <Text
                             bgGradient="linear(135deg, #667eea 0%, #764ba2 100%)"
                             backgroundClip="text"
                             fontSize="2xl"
                             fontWeight="700"
                         >
-                            More exciting quizzes coming soon!
+                            Great job, Standard 6 champions!
                         </Text>
                         <Text
                             color="gray.700"
                             fontSize="lg"
                             fontWeight="500"
                         >
-                            Keep learning and having fun with knowledge! 🚀
+                            More exciting subjects and challenges coming soon for you and your friends! 🚀📖
                         </Text>
                     </VStack>
                 </Box>
