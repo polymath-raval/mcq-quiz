@@ -1,0 +1,727 @@
+{
+    "chapterName": "Introduction to Chemistry",
+    "subject": "Chemistry",
+    "difficulty": "Hard",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Why did alchemists' attempts to transmute base metals into gold fail, despite their contributions to modern chemistry?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "They lacked spiritual discipline."
+                },
+                {
+                    "id": "b",
+                    "text": "They misunderstood atomic structure and nuclear reactions."
+                },
+                {
+                    "id": "c",
+                    "text": "They focused only on practical experiments."
+                },
+                {
+                    "id": "d",
+                    "text": "They used incorrect mathematical models."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Alchemists lacked knowledge of atomic theory and nuclear physics; transmutation requires changing protons in atomic nuclei (impossible with alchemical methods)."
+        },
+        {
+            "id": 2,
+            "question": "How does the rust-resistant composition of the Iron Pillar near Qutab Minar challenge modern metallurgical knowledge?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Its high phosphorus content contradicts modern rust-prevention techniques."
+                },
+                {
+                    "id": "b",
+                    "text": "It uses a synthetic alloy unknown today."
+                },
+                {
+                    "id": "c",
+                    "text": "It was coated with a lost chemical preservative."
+                },
+                {
+                    "id": "d",
+                    "text": "Its iron purity exceeds current industrial standards."
+                }
+            ],
+            "correctAnswer": "a",
+            "explanation": "Modern metallurgy avoids high phosphorus in iron (it makes steel brittle), but the pillar’s phosphorous content (1% vs. 0.05% today) formed a protective passive layer."
+        },
+        {
+            "id": 3,
+            "question": "Which chemical principle explains why synthetic fibers like nylon are more wrinkle-resistant than natural fibers?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Higher hydrogen bonding capacity."
+                },
+                {
+                    "id": "b",
+                    "text": "Cross-linked polymer chains."
+                },
+                {
+                    "id": "c",
+                    "text": "Lower melting points."
+                },
+                {
+                    "id": "d",
+                    "text": "Presence of ionic bonds."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Synthetic fibers have tightly cross-linked polymer chains, resisting deformation (wrinkles), while natural fibers (e.g., cotton) rely on weaker intermolecular forces."
+        },
+        {
+            "id": 4,
+            "question": "Why is hydrochloric acid (HCl) in the stomach not corrosive to the stomach lining itself?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "The stomach lining secretes a neutralizing base."
+                },
+                {
+                    "id": "b",
+                    "text": "Mucus forms a protective barrier against HCl."
+                },
+                {
+                    "id": "c",
+                    "text": "HCl is diluted by ingested food."
+                },
+                {
+                    "id": "d",
+                    "text": "Stomach cells are inherently acid-resistant."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Goblet cells in the stomach secrete mucus that prevents HCl from damaging epithelial tissues."
+        },
+        {
+            "id": 5,
+            "question": "How did Antoine Lavoisier's discovery of oxygen's role in combustion disprove the phlogiston theory?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "He showed combustion releases phlogiston into the air."
+                },
+                {
+                    "id": "b",
+                    "text": "He proved combustion requires oxygen, not a 'fire element.'"
+                },
+                {
+                    "id": "c",
+                    "text": "He demonstrated phlogiston was another name for carbon dioxide."
+                },
+                {
+                    "id": "d",
+                    "text": "He found phlogiston only exists in metals."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Lavoisier’s experiments revealed combustion involved oxygen combining with materials, debunking the phlogiston theory (which claimed materials released an imaginary 'fire element')."
+        },
+        {
+            "id": 6,
+            "question": "What is the environmental paradox of DDT as an insecticide?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "It increases crop yields but depletes soil nitrogen."
+                },
+                {
+                    "id": "b",
+                    "text": "It is highly effective against pests but persists in ecosystems, harming wildlife."
+                },
+                {
+                    "id": "c",
+                    "text": "It degrades quickly but requires excessive application."
+                },
+                {
+                    "id": "d",
+                    "text": "It is cheap to produce but toxic to humans only."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "DDT’s chemical stability (resisting degradation) led to bioaccumulation in food chains, causing ecological damage (e.g., thinning bird eggshells)."
+        },
+        {
+            "id": 7,
+            "question": "Why can’t nuclear fuels like uranium be considered a 'gift of chemistry' in the same way as synthetic fibers?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "They are mined, not chemically synthesized."
+                },
+                {
+                    "id": "b",
+                    "text": "They rely on physics, not chemical reactions, for energy release."
+                },
+                {
+                    "id": "c",
+                    "text": "They are naturally occurring polymers."
+                },
+                {
+                    "id": "d",
+                    "text": "They were discovered by alchemists."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Nuclear energy involves fission/fusion (physics), not chemical bonds. Chemistry governs reactions like combustion (e.g., LPG), not nuclear processes."
+        },
+        {
+            "id": 8,
+            "question": "How does the Haber-Bosch process, which synthesizes ammonia (NH₃) for fertilizers, exemplify the ethical duality of chemistry?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "It feeds billions but consumes fossil fuels, contributing to climate change."
+                },
+                {
+                    "id": "b",
+                    "text": "It was invented for weapons but repurposed for agriculture."
+                },
+                {
+                    "id": "c",
+                    "text": "It uses enzymes identical to those in the human body."
+                },
+                {
+                    "id": "d",
+                    "text": "It requires alchemical transmutation of nitrogen."
+                }
+            ],
+            "correctAnswer": "a",
+            "explanation": "The Haber-Bosch process (N₂ + H₂ → NH₃) supports global food production but relies on methane (CH₄) for hydrogen, emitting CO₂."
+        },
+        {
+            "id": 9,
+            "question": "Why is Marie Curie’s discovery of radium not considered a product of alchemy, despite its resemblance to transmutation?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Alchemy only involved base metals, not radioactive elements."
+                },
+                {
+                    "id": "b",
+                    "text": "She used systematic scientific methods, not spiritual practices."
+                },
+                {
+                    "id": "c",
+                    "text": "Radium is a synthetic polymer."
+                },
+                {
+                    "id": "d",
+                    "text": "Alchemists had already discovered radium."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Curie’s work followed rigorous experimentation and measurement, distinguishing it from alchemy’s mystical approach."
+        },
+        {
+            "id": 10,
+            "question": "What fundamental chemical concept did John Dalton’s atomic theory fail to account for?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Isotopes (atoms of the same element with different masses)."
+                },
+                {
+                    "id": "b",
+                    "text": "Covalent bonding."
+                },
+                {
+                    "id": "c",
+                    "text": "Electron configuration."
+                },
+                {
+                    "id": "d",
+                    "text": "All of the above."
+                }
+            ],
+            "correctAnswer": "d",
+            "explanation": "Dalton’s theory assumed atoms were indivisible and identical per element, missing subatomic particles, isotopes, and bonding mechanisms."
+        },
+        {
+            "id": 11,
+            "question": "Why is LPG stored as a liquid but used as a gas?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Liquefaction reduces volume for storage but reverts to gas at atmospheric pressure."
+                },
+                {
+                    "id": "b",
+                    "text": "It is chemically unstable as a liquid."
+                },
+                {
+                    "id": "c",
+                    "text": "Liquid LPG is more energy-dense than gaseous LPG."
+                },
+                {
+                    "id": "d",
+                    "text": "It mimics the properties of alchemical 'liquid gold.'"
+                }
+            ],
+            "correctAnswer": "a",
+            "explanation": "LPG (propane/butane) liquefies under moderate pressure, enabling compact storage. It vaporizes when released, making it usable as a gas."
+        },
+        {
+            "id": 12,
+            "question": "How does the chemical structure of TNT (trinitrotoluene) make it explosive?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Its nitro groups (–NO₂) release oxygen rapidly during decomposition."
+                },
+                {
+                    "id": "b",
+                    "text": "It contains hidden phlogiston."
+                },
+                {
+                    "id": "c",
+                    "text": "It polymerizes upon ignition."
+                },
+                {
+                    "id": "d",
+                    "text": "It is chemically identical to dynamite."
+                }
+            ],
+            "correctAnswer": "a",
+            "explanation": "TNT’s nitro groups decompose exothermically, releasing N₂, CO₂, and H₂O gases in a rapid expansion (explosion)."
+        },
+        {
+            "id": 13,
+            "question": "Why is the 'Philosopher’s Stone' metaphorically relevant to modern chemistry?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "It symbolizes the unattainable ideal of perfect transmutation."
+                },
+                {
+                    "id": "b",
+                    "text": "It represents catalysts that speed up reactions without being consumed."
+                },
+                {
+                    "id": "c",
+                    "text": "It inspired the discovery of radioactive elements."
+                },
+                {
+                    "id": "d",
+                    "text": "All of the above."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Catalysts (like the mythical stone) enable reactions (e.g., industrial ammonia synthesis) without being consumed, mirroring alchemical goals."
+        },
+        {
+            "id": 14,
+            "question": "What chemical property of talc (in talcum powder) makes it useful for cosmetics?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Its high reactivity with water."
+                },
+                {
+                    "id": "b",
+                    "text": "Its layered silicate structure provides lubrication and moisture absorption."
+                },
+                {
+                    "id": "c",
+                    "text": "It forms covalent bonds with skin proteins."
+                },
+                {
+                    "id": "d",
+                    "text": "It is radioactive."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Talc’s layered structure (Mg₃Si₄O₁₀(OH)₂) allows it to absorb moisture and reduce friction, making it ideal for powders."
+        },
+        {
+            "id": 15,
+            "question": "How do enzymes exemplify the intersection of chemistry and biology?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "They are inorganic catalysts synthesized in labs."
+                },
+                {
+                    "id": "b",
+                    "text": "They are proteins that lower activation energy of biochemical reactions."
+                },
+                {
+                    "id": "c",
+                    "text": "They were first discovered by alchemists."
+                },
+                {
+                    "id": "d",
+                    "text": "They operate only in acidic conditions."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Enzymes are biological catalysts (proteins) that accelerate reactions (e.g., digestion) by stabilizing transition states, merging chemical and biological principles."
+        },
+        {
+            "id": 16,
+            "question": "Why is the iron pillar near Qutab Minar considered a marvel of ancient metallurgy?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "It is made of a stainless steel alloy unknown today."
+                },
+                {
+                    "id": "b",
+                    "text": "Its high phosphorus content forms a protective rust-resistant layer."
+                },
+                {
+                    "id": "c",
+                    "text": "It was forged using alchemical liquid gold."
+                },
+                {
+                    "id": "d",
+                    "text": "It contains synthetic fibers for reinforcement."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "The pillar’s phosphorous content (1%) reacts with oxygen to form a thin, stable oxide layer (FePO₄) that prevents further corrosion."
+        },
+        {
+            "id": 17,
+            "question": "How does the chemical structure of DDT contribute to its environmental persistence?",
+            "options": [
+                {
+                    "id": "d",
+                    "text": "Its chlorine atoms resist degradation by natural processes."
+                },
+                {
+                    "id": "b",
+                    "text": "It forms hydrogen bonds with water, spreading rapidly."
+                },
+                {
+                    "id": "c",
+                    "text": "It is a heavy metal compound."
+                },
+                {
+                    "id": "d",
+                    "text": "It decomposes into harmless sugars."
+                }
+            ],
+            "correctAnswer": "a",
+            "explanation": "DDT’s chlorine-carbon bonds (C₁₄H₉Cl₅) are non-biodegradable, leading to bioaccumulation in ecosystems."
+        },
+        {
+            "id": 18,
+            "question": "Why did Alfred Nobel’s invention of dynamite paradoxically fund the Nobel Prizes?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "He regretted its use in warfare and donated his fortune to peace."
+                },
+                {
+                    "id": "b",
+                    "text": "Dynamite sales funded his alchemical research."
+                },
+                {
+                    "id": "c",
+                    "text": "It was originally a failed food preservative."
+                },
+                {
+                    "id": "d",
+                    "text": "The prizes were a tax evasion strategy."
+                }
+            ],
+            "correctAnswer": "a",
+            "explanation": "Nobel, dismayed by dynamite’s destructive uses, willed his wealth to establish prizes celebrating scientific and humanitarian achievements."
+        },
+        {
+            "id": 19,
+            "question": "What chemical principle explains why CNG is cleaner than petrol?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "CNG releases more CO₂ per unit energy."
+                },
+                {
+                    "id": "b",
+                    "text": "CNG combustion produces only CO₂ and H₂O, no soot or sulfur oxides."
+                },
+                {
+                    "id": "c",
+                    "text": "CNG is a product of alchemy."
+                },
+                {
+                    "id": "d",
+                    "text": "CNG contains radioactive isotopes."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "CNG (methane, CH₄) burns completely to CO₂ + H₂O, unlike petrol, which releases particulates and SO₂ from impurities."
+        },
+        {
+            "id": 20,
+            "question": "How does the chemical industry’s synthesis of urea challenge the Vital Force Theory?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Urea was synthesized from inorganic compounds, disproving that organic molecules require a 'life force.'"
+                },
+                {
+                    "id": "b",
+                    "text": "Urea is a byproduct of alchemy."
+                },
+                {
+                    "id": "c",
+                    "text": "Vital Force Theory only applied to metals."
+                },
+                {
+                    "id": "d",
+                    "text": "Urea’s discovery required nuclear transmutation."
+                }
+            ],
+            "correctAnswer": "a",
+            "explanation": "Wöhler’s 1828 synthesis of urea (NH₂CONH₂) from ammonium cyanate (NH₄OCN) showed organic compounds could be made artificially, debunking Vitalism."
+        },
+        {
+            "id": 21,
+            "question": "Why is the iron pillar’s rust resistance not replicable with modern steel?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Modern steel lacks phosphorus, which is deliberately removed to prevent brittleness."
+                },
+                {
+                    "id": "b",
+                    "text": "The pillar’s iron was mined from a now-depleted radioactive source."
+                },
+                {
+                    "id": "c",
+                    "text": "Alchemists coated it with a lost polymer."
+                },
+                {
+                    "id": "d",
+                    "text": "It is secretly made of synthetic nylon."
+                }
+            ],
+            "correctAnswer": "a",
+            "explanation": "Modern steel minimizes phosphorus (<0.05%) to avoid brittleness, sacrificing the passive oxide layer that protects the pillar."
+        },
+        {
+            "id": 22,
+            "question": "How does the chemical structure of polymers like nylon illustrate the concept of 'gifts of chemistry'?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "They mimic natural proteins but are synthesized from petrochemicals."
+                },
+                {
+                    "id": "b",
+                    "text": "They contain alchemical gold particles."
+                },
+                {
+                    "id": "c",
+                    "text": "They are identical to cellulose."
+                },
+                {
+                    "id": "d",
+                    "text": "They were first discovered in meteorites."
+                }
+            ],
+            "correctAnswer": "a",
+            "explanation": "Nylon (a polyamide) is a synthetic polymer engineered for strength and elasticity, exemplifying chemistry’s ability to improve on natural materials."
+        },
+        {
+            "id": 23,
+            "question": "Why is the discovery of inert gases by William Ramsay significant for atomic theory?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "They proved the existence of phlogiston."
+                },
+                {
+                    "id": "b",
+                    "text": "Their non-reactivity supported the idea of stable electron configurations."
+                },
+                {
+                    "id": "c",
+                    "text": "They are synthetic elements."
+                },
+                {
+                    "id": "d",
+                    "text": "They decay into radioactive isotopes."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Inert gases (e.g., argon, neon) demonstrated that atoms with full valence electron shells are unreactive, validating atomic structure models."
+        },
+        {
+            "id": 24,
+            "question": "What chemical property makes sodium benzoate an effective food preservative?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "It forms a protective polymer coating on food."
+                },
+                {
+                    "id": "b",
+                    "text": "It lowers the pH of food, inhibiting microbial growth."
+                },
+                {
+                    "id": "c",
+                    "text": "It releases chlorine gas to sterilize food."
+                },
+                {
+                    "id": "d",
+                    "text": "It is radioactive."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Sodium benzoate (C₇H₅NaO₂) dissociates into benzoic acid in acidic conditions, disrupting microbial metabolism."
+        },
+        {
+            "id": 25,
+            "question": "How does the chemical composition of Portland cement reflect its industrial importance?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "It contains synthetic fibers for flexibility."
+                },
+                {
+                    "id": "b",
+                    "text": "Its calcium silicates react with water to form hard hydrates."
+                },
+                {
+                    "id": "c",
+                    "text": "It is identical to ancient Roman concrete."
+                },
+                {
+                    "id": "d",
+                    "text": "It is a byproduct of petroleum refining."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Cement’s key compounds (e.g., tricalcium silicate, 3CaO·SiO₂) undergo hydration to form calcium silicate hydrate (C-S-H), the backbone of concrete."
+        },
+        {
+            "id": 26,
+            "question": "Why is the synthesis of ammonia (NH₃) via the Haber process considered a pinnacle of applied chemistry?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "It mimics photosynthesis."
+                },
+                {
+                    "id": "b",
+                    "text": "It converts inert atmospheric nitrogen (N₂) into bioavailable fertilizer."
+                },
+                {
+                    "id": "c",
+                    "text": "It was the first alchemical transmutation."
+                },
+                {
+                    "id": "d",
+                    "text": "It requires no energy input."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "The Haber process fixes atmospheric N₂ (triple-bonded and unreactive) into NH₃, enabling synthetic fertilizers that sustain global agriculture."
+        },
+        {
+            "id": 27,
+            "question": "How does the chemical structure of hydrochloric acid (HCl) explain its role in digestion?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "It forms ionic bonds with food particles."
+                },
+                {
+                    "id": "b",
+                    "text": "Its low pH denatures proteins and activates pepsin."
+                },
+                {
+                    "id": "c",
+                    "text": "It is a reducing agent."
+                },
+                {
+                    "id": "d",
+                    "text": "It polymerizes into nutrients."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "HCl’s acidity (pH ~1.5) unfolds proteins (denaturation) and converts pepsinogen to pepsin, an enzyme that digests proteins."
+        },
+        {
+            "id": 28,
+            "question": "What chemical principle underlies the 'dark side' of chemistry in addictive drugs?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "They mimic neurotransmitters, hijacking brain reward pathways."
+                },
+                {
+                    "id": "b",
+                    "text": "They are all derived from talc."
+                },
+                {
+                    "id": "c",
+                    "text": "They contain radioactive isotopes."
+                },
+                {
+                    "id": "d",
+                    "text": "They are synthetic fibers."
+                }
+            ],
+            "correctAnswer": "a",
+            "explanation": "Drugs like heroin bind to opioid receptors, overstimulating dopamine release and causing addiction—a misuse of chemical knowledge."
+        },
+        {
+            "id": 29,
+            "question": "How does the chemical composition of synthetic dyes illustrate chemistry’s impact on textiles?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "They are identical to natural plant pigments."
+                },
+                {
+                    "id": "b",
+                    "text": "Their aromatic structures provide vibrant, fade-resistant colors."
+                },
+                {
+                    "id": "c",
+                    "text": "They are byproducts of nuclear fission."
+                },
+                {
+                    "id": "d",
+                    "text": "They were discovered by alchemists."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Synthetic dyes (e.g., azo dyes) use conjugated double bonds (aromatic rings) to absorb/reflect specific light wavelengths, creating durable colors."
+        },
+        {
+            "id": 30,
+            "question": "Why is the discovery of enzymes considered a bridge between chemistry and biology?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "They are inorganic catalysts."
+                },
+                {
+                    "id": "b",
+                    "text": "They are proteins that obey chemical laws while enabling life processes."
+                },
+                {
+                    "id": "c",
+                    "text": "They were first synthesized in alchemical labs."
+                },
+                {
+                    "id": "d",
+                    "text": "They operate only in test tubes."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Enzymes are biomolecules (proteins) that follow chemical kinetics (e.g., activation energy) to catalyze metabolic reactions, unifying chemistry and biology."
+        }
+    ]
+}

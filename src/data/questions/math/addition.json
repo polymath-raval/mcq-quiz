@@ -1,0 +1,55 @@
+{
+    "chapterName": "Basic Addition",
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is 5 + 3?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "7"
+                },
+                {
+                    "id": "b",
+                    "text": "8"
+                },
+                {
+                    "id": "c",
+                    "text": "9"
+                },
+                {
+                    "id": "d",
+                    "text": "6"
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "When we add 5 and 3, we get 8. Think of it as having 5 apples and getting 3 more apples, now you have 8 apples!"
+        },
+        {
+            "id": 2,
+            "question": "If you have 4 candies and your friend gives you 6 more, how many candies do you have now?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "8"
+                },
+                {
+                    "id": "b",
+                    "text": "9"
+                },
+                {
+                    "id": "c",
+                    "text": "10"
+                },
+                {
+                    "id": "d",
+                    "text": "11"
+                }
+            ],
+            "correctAnswer": "c",
+            "explanation": "Starting with 4 candies and adding 6 more gives us 10 candies in total. It's like counting: 4, 5, 6, 7, 8, 9, 10!"
+        }
+    ]
+}

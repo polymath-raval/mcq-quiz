@@ -1,0 +1,727 @@
+{
+    "chapterName": "Introduction to Chemistry",
+    "subject": "Chemistry",
+    "difficulty": "Medium",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Which of the following best describes the role of alchemy in the development of modern chemistry?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "It was purely spiritual and had no scientific value."
+                },
+                {
+                    "id": "b",
+                    "text": "It contributed to early experimental techniques and metal extraction."
+                },
+                {
+                    "id": "c",
+                    "text": "It focused solely on turning base metals into gold."
+                },
+                {
+                    "id": "d",
+                    "text": "It was replaced entirely by physics in the 18th century."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Alchemy contributed to early experimental techniques, metal extraction, and the development of processes that later became foundational to modern chemistry."
+        },
+        {
+            "id": 2,
+            "question": "Why is the iron pillar near Qutab Minar significant in the history of chemistry?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "It was the first structure built using alchemical methods."
+                },
+                {
+                    "id": "b",
+                    "text": "Its rust-resistant composition demonstrates early knowledge of metallurgy."
+                },
+                {
+                    "id": "c",
+                    "text": "It was used to store alchemical secrets."
+                },
+                {
+                    "id": "d",
+                    "text": "It is made entirely of gold."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "The iron pillar's rust-resistant composition, due to its high phosphorous content, showcases early advancements in metallurgy."
+        },
+        {
+            "id": 3,
+            "question": "Which of the following is NOT a synthetic fiber?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Nylon"
+                },
+                {
+                    "id": "b",
+                    "text": "Polyester"
+                },
+                {
+                    "id": "c",
+                    "text": "Cotton"
+                },
+                {
+                    "id": "d",
+                    "text": "Spandex"
+                }
+            ],
+            "correctAnswer": "c",
+            "explanation": "Cotton is a natural fiber, while nylon, polyester, and spandex are synthetic fibers produced through chemical processes."
+        },
+        {
+            "id": 4,
+            "question": "What is the primary function of enzymes in the human body?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "To act as structural components of cells."
+                },
+                {
+                    "id": "b",
+                    "text": "To facilitate chemical reactions like digestion."
+                },
+                {
+                    "id": "c",
+                    "text": "To store genetic information."
+                },
+                {
+                    "id": "d",
+                    "text": "To transport oxygen in the blood."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Enzymes are biological catalysts that speed up chemical reactions, such as those involved in digestion and metabolism."
+        },
+        {
+            "id": 5,
+            "question": "Which scientist is credited with naming the elements carbon, hydrogen, and oxygen?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "John Dalton"
+                },
+                {
+                    "id": "b",
+                    "text": "Antoine Lavoisier"
+                },
+                {
+                    "id": "c",
+                    "text": "Marie Curie"
+                },
+                {
+                    "id": "d",
+                    "text": "Robert Boyle"
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Antoine Lavoisier named carbon, hydrogen, and oxygen and discovered the role of oxygen in combustion and respiration."
+        },
+        {
+            "id": 6,
+            "question": "What is the main difference between a pesticide and a fungicide?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Pesticides kill insects, while fungicides kill fungi."
+                },
+                {
+                    "id": "b",
+                    "text": "Pesticides are used in medicine, while fungicides are used in agriculture."
+                },
+                {
+                    "id": "c",
+                    "text": "Pesticides are natural, while fungicides are synthetic."
+                },
+                {
+                    "id": "d",
+                    "text": "There is no difference; the terms are interchangeable."
+                }
+            ],
+            "correctAnswer": "a",
+            "explanation": "Pesticides target pests like insects, while fungicides specifically protect crops from harmful fungi."
+        },
+        {
+            "id": 7,
+            "question": "Which of the following is an example of a food preservative?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Urea"
+                },
+                {
+                    "id": "b",
+                    "text": "Sodium benzoate"
+                },
+                {
+                    "id": "c",
+                    "text": "DDT"
+                },
+                {
+                    "id": "d",
+                    "text": "Talc"
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Sodium benzoate is a common chemical preservative used to prevent spoilage in foods like pickles and soft drinks."
+        },
+        {
+            "id": 8,
+            "question": "What role does hydrochloric acid play in the human body?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "It transports nutrients in the blood."
+                },
+                {
+                    "id": "b",
+                    "text": "It aids in the digestion of food in the stomach."
+                },
+                {
+                    "id": "c",
+                    "text": "It acts as a hormone to regulate metabolism."
+                },
+                {
+                    "id": "d",
+                    "text": "It strengthens bones and teeth."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Hydrochloric acid in the stomach breaks down food and kills harmful bacteria, aiding digestion."
+        },
+        {
+            "id": 9,
+            "question": "Which of the following is a key contribution of John Dalton to chemistry?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Discovery of oxygen"
+                },
+                {
+                    "id": "b",
+                    "text": "Invention of dynamite"
+                },
+                {
+                    "id": "c",
+                    "text": "Proposal of the atomic theory"
+                },
+                {
+                    "id": "d",
+                    "text": "Development of the periodic table"
+                }
+            ],
+            "correctAnswer": "c",
+            "explanation": "John Dalton proposed the atomic theory, which states that matter is composed of small, indivisible particles called atoms."
+        },
+        {
+            "id": 10,
+            "question": "What is the primary use of CNG?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "As a food preservative"
+                },
+                {
+                    "id": "b",
+                    "text": "As a fuel for automobiles and cooking"
+                },
+                {
+                    "id": "c",
+                    "text": "As a building material"
+                },
+                {
+                    "id": "d",
+                    "text": "As a medicinal drug"
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "CNG (Compressed Natural Gas) is primarily used as a cleaner alternative fuel for vehicles and cooking."
+        },
+        {
+            "id": 11,
+            "question": "Which of the following is NOT a product of the petroleum industry?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Petrol"
+                },
+                {
+                    "id": "b",
+                    "text": "Diesel"
+                },
+                {
+                    "id": "c",
+                    "text": "LPG"
+                },
+                {
+                    "id": "d",
+                    "text": "Urea"
+                }
+            ],
+            "correctAnswer": "d",
+            "explanation": "Urea is a fertilizer produced through chemical processes unrelated to petroleum refining."
+        },
+        {
+            "id": 12,
+            "question": "What is the significance of Marie Curie's discovery of radium?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "It led to the development of the first synthetic fiber."
+                },
+                {
+                    "id": "b",
+                    "text": "It advanced the understanding of radioactivity and its medical applications."
+                },
+                {
+                    "id": "c",
+                    "text": "It proved the existence of the philosopher's stone."
+                },
+                {
+                    "id": "d",
+                    "text": "It replaced alchemy as a scientific discipline."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Marie Curie's work on radium revolutionized the study of radioactivity and paved the way for advancements in medical treatments like X-rays."
+        },
+        {
+            "id": 13,
+            "question": "Which of the following is an example of a building material produced through chemical processes?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Wood"
+                },
+                {
+                    "id": "b",
+                    "text": "Stone"
+                },
+                {
+                    "id": "c",
+                    "text": "Cement"
+                },
+                {
+                    "id": "d",
+                    "text": "Cotton"
+                }
+            ],
+            "correctAnswer": "c",
+            "explanation": "Cement is manufactured through chemical processes, unlike natural materials like wood and stone."
+        },
+        {
+            "id": 14,
+            "question": "What is the primary purpose of adding preservatives to food?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "To enhance flavor"
+                },
+                {
+                    "id": "b",
+                    "text": "To prevent spoilage by microorganisms"
+                },
+                {
+                    "id": "c",
+                    "text": "To increase nutritional value"
+                },
+                {
+                    "id": "d",
+                    "text": "To change the color of food"
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Preservatives are added to food to inhibit the growth of bacteria, fungi, and other microorganisms, thereby extending shelf life."
+        },
+        {
+            "id": 15,
+            "question": "Which of the following best describes the relationship between alchemy and modern chemistry?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Alchemy and chemistry are identical in their methods and goals."
+                },
+                {
+                    "id": "b",
+                    "text": "Alchemy was a pseudoscience with no connection to chemistry."
+                },
+                {
+                    "id": "c",
+                    "text": "Alchemy laid the groundwork for experimental techniques later refined in chemistry."
+                },
+                {
+                    "id": "d",
+                    "text": "Alchemy was replaced by physics in the 19th century."
+                }
+            ],
+            "correctAnswer": "c",
+            "explanation": "Alchemy introduced early experimental methods and processes that were later refined and systematized in modern chemistry."
+        },
+        {
+            "id": 16,
+            "question": "Which of the following is a key difference between natural and synthetic fibers?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Natural fibers are stronger than synthetic fibers."
+                },
+                {
+                    "id": "b",
+                    "text": "Synthetic fibers are derived from plants, while natural fibers are man-made."
+                },
+                {
+                    "id": "c",
+                    "text": "Synthetic fibers are often more wrinkle-resistant and durable."
+                },
+                {
+                    "id": "d",
+                    "text": "Natural fibers are always more expensive than synthetic fibers."
+                }
+            ],
+            "correctAnswer": "c",
+            "explanation": "Synthetic fibers like nylon and polyester are designed to be wrinkle-resistant, durable, and quick-drying, unlike many natural fibers."
+        },
+        {
+            "id": 17,
+            "question": "What is the primary component of talcum powder?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Calcium carbonate"
+                },
+                {
+                    "id": "b",
+                    "text": "Talc"
+                },
+                {
+                    "id": "c",
+                    "text": "Sodium chloride"
+                },
+                {
+                    "id": "d",
+                    "text": "Silicon dioxide"
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Talcum powder is made from talc, a mineral composed of magnesium, silicon, and oxygen."
+        },
+        {
+            "id": 18,
+            "question": "Which of the following is an example of a chemical weapon?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "TNT"
+                },
+                {
+                    "id": "b",
+                    "text": "Phosgene"
+                },
+                {
+                    "id": "c",
+                    "text": "Urea"
+                },
+                {
+                    "id": "d",
+                    "text": "LPG"
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Phosgene is a toxic gas used as a chemical weapon, while TNT is an explosive and urea/LPG have non-military uses."
+        },
+        {
+            "id": 19,
+            "question": "What is the role of fertilizers in agriculture?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "To kill harmful pests"
+                },
+                {
+                    "id": "b",
+                    "text": "To provide essential nutrients to crops"
+                },
+                {
+                    "id": "c",
+                    "text": "To preserve harvested crops"
+                },
+                {
+                    "id": "d",
+                    "text": "To increase the water content of soil"
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Fertilizers supply nutrients like nitrogen, phosphorus, and potassium to crops, promoting growth and increasing yield."
+        },
+        {
+            "id": 20,
+            "question": "Which of the following is a major application of chemistry in the textile industry?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Production of synthetic fibers like polyester"
+                },
+                {
+                    "id": "b",
+                    "text": "Extraction of metals from ores"
+                },
+                {
+                    "id": "c",
+                    "text": "Manufacture of cement and paints"
+                },
+                {
+                    "id": "d",
+                    "text": "Development of antibiotics"
+                }
+            ],
+            "correctAnswer": "a",
+            "explanation": "Chemistry enables the production of synthetic fibers (e.g., polyester, nylon) used in textiles, offering durability and resistance to wrinkles."
+        },
+        {
+            "id": 21,
+            "question": "What is the primary function of hormones in the human body?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "To act as enzymes in digestion"
+                },
+                {
+                    "id": "b",
+                    "text": "To regulate physiological processes like growth and metabolism"
+                },
+                {
+                    "id": "c",
+                    "text": "To transport oxygen in the blood"
+                },
+                {
+                    "id": "d",
+                    "text": "To provide structural support to cells"
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Hormones are chemical messengers that regulate processes such as growth, metabolism, and reproduction."
+        },
+        {
+            "id": 22,
+            "question": "Which of the following is a disadvantage of using chemical pesticides?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "They increase crop yields."
+                },
+                {
+                    "id": "b",
+                    "text": "They can harm beneficial insects and pollute the environment."
+                },
+                {
+                    "id": "c",
+                    "text": "They are derived from natural sources."
+                },
+                {
+                    "id": "d",
+                    "text": "They are inexpensive to produce."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Chemical pesticides may disrupt ecosystems by harming non-target species and contaminating water and soil."
+        },
+        {
+            "id": 23,
+            "question": "What is the main purpose of food processing?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "To make food less nutritious"
+                },
+                {
+                    "id": "b",
+                    "text": "To transform raw ingredients into marketable food products"
+                },
+                {
+                    "id": "c",
+                    "text": "To eliminate all chemicals from food"
+                },
+                {
+                    "id": "d",
+                    "text": "To reduce the variety of food available"
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Food processing converts raw ingredients into convenient, marketable products like cheese, bread, and canned goods."
+        },
+        {
+            "id": 24,
+            "question": "Which of the following is a natural fiber?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Nylon"
+                },
+                {
+                    "id": "b",
+                    "text": "Polyester"
+                },
+                {
+                    "id": "c",
+                    "text": "Silk"
+                },
+                {
+                    "id": "d",
+                    "text": "Spandex"
+                }
+            ],
+            "correctAnswer": "c",
+            "explanation": "Silk is a natural fiber produced by silkworms, while nylon, polyester, and spandex are synthetic."
+        },
+        {
+            "id": 25,
+            "question": "What is the primary role of antiseptics?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "To fertilize crops"
+                },
+                {
+                    "id": "b",
+                    "text": "To kill or inhibit microorganisms on living tissue"
+                },
+                {
+                    "id": "c",
+                    "text": "To preserve food"
+                },
+                {
+                    "id": "d",
+                    "text": "To act as building materials"
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Antiseptics are used to prevent infection by killing or inhibiting microbes on skin and wounds."
+        },
+        {
+            "id": 26,
+            "question": "Which of the following is a renewable energy source being studied by chemists?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Petroleum"
+                },
+                {
+                    "id": "b",
+                    "text": "Coal"
+                },
+                {
+                    "id": "c",
+                    "text": "Solar energy"
+                },
+                {
+                    "id": "d",
+                    "text": "Natural gas"
+                }
+            ],
+            "correctAnswer": "c",
+            "explanation": "Solar energy is renewable and inexhaustible, unlike fossil fuels like petroleum, coal, and natural gas."
+        },
+        {
+            "id": 27,
+            "question": "What is the primary use of TNT in modern applications?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "As a food preservative"
+                },
+                {
+                    "id": "b",
+                    "text": "As a fertilizer"
+                },
+                {
+                    "id": "c",
+                    "text": "As an explosive in mining and construction"
+                },
+                {
+                    "id": "d",
+                    "text": "As a cosmetic ingredient"
+                }
+            ],
+            "correctAnswer": "c",
+            "explanation": "TNT (trinitrotoluene) is primarily used as an explosive in mining, construction, and military applications."
+        },
+        {
+            "id": 28,
+            "question": "Which of the following is a key contribution of Alfred Nobel to chemistry?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Discovery of radium"
+                },
+                {
+                    "id": "b",
+                    "text": "Invention of dynamite"
+                },
+                {
+                    "id": "c",
+                    "text": "Development of the periodic table"
+                },
+                {
+                    "id": "d",
+                    "text": "Naming of carbon and hydrogen"
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Alfred Nobel invented dynamite, a safer explosive, and later established the Nobel Prizes."
+        },
+        {
+            "id": 29,
+            "question": "What is the primary component of LPG?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Methane"
+                },
+                {
+                    "id": "b",
+                    "text": "Propane and butane"
+                },
+                {
+                    "id": "c",
+                    "text": "Carbon dioxide"
+                },
+                {
+                    "id": "d",
+                    "text": "Oxygen"
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "LPG (Liquified Petroleum Gas) is primarily composed of propane and butane, used as fuel for cooking and heating."
+        },
+        {
+            "id": 30,
+            "question": "Which of the following is a major ethical concern associated with chemical weapons?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "They are inexpensive to produce."
+                },
+                {
+                    "id": "b",
+                    "text": "They cause indiscriminate harm to civilians and soldiers alike."
+                },
+                {
+                    "id": "c",
+                    "text": "They are derived from natural sources."
+                },
+                {
+                    "id": "d",
+                    "text": "They have no military applications."
+                }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Chemical weapons are banned under international law due to their potential for mass, indiscriminate harm."
+        }
+    ]
+}
