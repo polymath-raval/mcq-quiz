@@ -29,17 +29,23 @@ const Quiz = () => {
     const [feedback, setFeedback] = useState<string>('')
 
     useEffect(() => {
-        // In a real app, this would be an API call
-        const importPath = `../data/questions/${subject}/${fullChapterPath}.json`
-        console.log('Attempting to import:', importPath)
+        // Fetch quiz data from public directory
+        const fetchPath = `/data/questions/${subject}/${fullChapterPath}.json`
+        console.log('Attempting to fetch:', fetchPath)
 
-        import(importPath)
+        fetch(fetchPath)
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`)
+                }
+                return response.json()
+            })
             .then((data) => {
                 console.log('Successfully loaded quiz data')
-                setQuizData(data.default)
+                setQuizData(data)
             })
             .catch((error) => {
-                console.error('Error loading quiz:', error, 'Path:', importPath)
+                console.error('Error loading quiz:', error, 'Path:', fetchPath)
                 alert('Error loading quiz. Please try again later.')
                 navigate('/')
             })
