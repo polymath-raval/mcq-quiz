@@ -1,15 +1,12 @@
 import {
     Box,
-    Grid,
     Heading,
     Text,
     VStack,
-    Button,
     Container,
     HStack,
     Badge,
     SimpleGrid,
-    Icon,
     Flex
 } from '@chakra-ui/react'
 import { Link } from 'react-router-dom'
