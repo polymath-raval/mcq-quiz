@@ -7,28 +7,85 @@ import {
     HStack,
     Badge,
     SimpleGrid,
-    Flex
+    Flex,
+    Icon,
+    Link as ChakraLink
 } from '@chakra-ui/react'
 import { Link } from 'react-router-dom'
+import { FaFilePdf, FaPodcast, FaDownload } from 'react-icons/fa'
 
 const subjects = [
     {
         name: 'Class 6 Chemistry',
         folderName: 'chemistry',
-        emoji: '⚗️',
         gradient: 'linear(135deg, #2196F3 0%, #1976D2 100%)',
         lightBg: 'rgba(33, 150, 243, 0.1)',
         description: 'Introduction to Chemistry',
+        resources: [
+            {
+                name: 'Chapter 1 PDF',
+                path: '/src/data/questions/chemistry/chapter1/chapter1.pdf',
+                type: 'pdf',
+                icon: FaFilePdf,
+                color: 'red.500'
+            },
+            {
+                name: 'Chapter 1 Podcast',
+                path: '/src/data/questions/chemistry/chapter1/chapter1.wav',
+                type: 'audio',
+                icon: FaPodcast,
+                color: 'purple.500'
+            }
+        ],
         chapters: [
-            { name: 'Easy Paper 1', path: 'easy-2', difficulty: 'Easy', questions: 15 },
-            { name: 'Easy Paper 2', path: 'easy-1', difficulty: 'Easy', questions: 30 },
-            { name: 'Medium Paper 1', path: 'medium-1', difficulty: 'Medium', questions: 30 },
-            { name: 'Medium Paper 2', path: 'medium-2', difficulty: 'Medium', questions: 30 },
-            { name: 'Medium Paper 3', path: 'medium-3', difficulty: 'Medium', questions: 30 },
-            { name: 'Hard Paper 1', path: 'hard-1', difficulty: 'Hard', questions: 30 }
+            { name: 'Easy Paper 1', path: 'chapter1/easy-2', difficulty: 'easy', questions: 15 },
+            { name: 'Easy Paper 2', path: 'chapter1/easy-1', difficulty: 'easy', questions: 30 },
+            { name: 'Medium Paper 1', path: 'chapter1/medium-1', difficulty: 'medium', questions: 30 },
+            { name: 'Medium Paper 2', path: 'chapter1/medium-2', difficulty: 'medium', questions: 30 },
+            { name: 'Medium Paper 3', path: 'chapter1/medium-3', difficulty: 'medium', questions: 30 },
+            { name: 'Hard Paper 1', path: 'chapter1/hard-1', difficulty: 'hard', questions: 30 }
         ]
     }
 ]
+
+// Difficulty dot component
+const DifficultyDots = ({ difficulty }: { difficulty: string }) => {
+    const getDotColor = (level: string) => {
+        switch (level) {
+            case 'easy': return 'green.400'
+            case 'medium': return 'orange.400'
+            case 'hard': return 'red.400'
+            default: return 'gray.400'
+        }
+    }
+
+    const getDotCount = (level: string) => {
+        switch (level) {
+            case 'easy': return 1
+            case 'medium': return 2
+            case 'hard': return 3
+            default: return 1
+        }
+    }
+
+    const activeDots = getDotCount(difficulty)
+    const color = getDotColor(difficulty)
+
+    return (
+        <HStack gap={1}>
+            {[1, 2, 3].map((dot) => (
+                <Box
+                    key={dot}
+                    w="8px"
+                    h="8px"
+                    borderRadius="full"
+                    bg={dot <= activeDots ? color : 'gray.300'}
+                    transition="all 0.2s ease"
+                />
+            ))}
+        </HStack>
+    )
+}
 
 const Home = () => {
     return (
@@ -37,21 +94,20 @@ const Home = () => {
                 {/* Hero Section */}
                 <Box textAlign="center" py={12}>
                     <VStack gap={8}>
-                        <Box
-                            fontSize="8xl"
-                            mb={4}
-                            filter="drop-shadow(0 4px 20px rgba(0,0,0,0.1))"
-                            animation="float 3s ease-in-out infinite"
-                            css={{
-                                '@keyframes float': {
-                                    '0%, 100%': { transform: 'translateY(0px)' },
-                                    '50%': { transform: 'translateY(-10px)' }
-                                }
-                            }}
-                        >
-                            🎮✨
-                        </Box>
-                        <VStack gap={4}>
+                        <HStack gap={4} justify="center" align="center">
+                            <Box
+                                fontSize="6xl"
+                                filter="drop-shadow(0 4px 20px rgba(0,0,0,0.1))"
+                                animation="float 3s ease-in-out infinite"
+                                css={{
+                                    '@keyframes float': {
+                                        '0%, 100%': { transform: 'translateY(0px)' },
+                                        '50%': { transform: 'translateY(-10px)' }
+                                    }
+                                }}
+                            >
+                                🎮✨
+                            </Box>
                             <Heading
                                 fontSize={{ base: "4xl", md: "6xl" }}
                                 fontWeight="900"
@@ -63,6 +119,8 @@ const Home = () => {
                             >
                                 Welcome to Kids Quiz!
                             </Heading>
+                        </HStack>
+                        <VStack gap={4}>
                             <Text
                                 fontSize={{ base: "xl", md: "2xl" }}
                                 color="white"
@@ -121,31 +179,6 @@ const Home = () => {
                             <VStack align="stretch" gap={6} position="relative" zIndex={1}>
                                 {/* Subject Header */}
                                 <Flex align="center" gap={6}>
-                                    <Box
-                                        fontSize="5xl"
-                                        w="20"
-                                        h="20"
-                                        display="flex"
-                                        alignItems="center"
-                                        justifyContent="center"
-                                        bg={subject.gradient}
-                                        borderRadius="2xl"
-                                        color="white"
-                                        shadow="xl"
-                                        position="relative"
-                                        _before={{
-                                            content: '""',
-                                            position: 'absolute',
-                                            inset: '-2px',
-                                            bg: subject.gradient,
-                                            borderRadius: '2xl',
-                                            opacity: 0.3,
-                                            filter: 'blur(8px)',
-                                            zIndex: -1
-                                        }}
-                                    >
-                                        {subject.emoji}
-                                    </Box>
                                     <VStack align="start" gap={2} flex="1">
                                         <Heading
                                             size="xl"
@@ -166,6 +199,68 @@ const Home = () => {
                                         </Text>
                                     </VStack>
                                 </Flex>
+
+                                {/* Resources Section */}
+                                <VStack gap={4} align="stretch">
+                                    <Text
+                                        fontSize="sm"
+                                        fontWeight="700"
+                                        color="gray.600"
+                                        textTransform="uppercase"
+                                        letterSpacing="wider"
+                                    >
+                                        Learning Resources
+                                    </Text>
+
+                                    <HStack gap={4} flexWrap="wrap">
+                                        {subject.resources.map((resource) => (
+                                            <ChakraLink
+                                                key={resource.name}
+                                                href={resource.path}
+                                                download
+                                                _hover={{ textDecoration: 'none' }}
+                                            >
+                                                <Box
+                                                    p={4}
+                                                    bg="white"
+                                                    borderRadius="xl"
+                                                    border="2px solid"
+                                                    borderColor="gray.200"
+                                                    _hover={{
+                                                        borderColor: resource.color,
+                                                        transform: 'translateY(-2px)',
+                                                        shadow: 'lg'
+                                                    }}
+                                                    transition="all 0.3s ease"
+                                                    cursor="pointer"
+                                                >
+                                                    <HStack gap={3}>
+                                                        <Icon
+                                                            as={resource.icon}
+                                                            color={resource.color}
+                                                            fontSize="xl"
+                                                        />
+                                                        <VStack align="start" gap={1}>
+                                                            <Text
+                                                                fontSize="sm"
+                                                                fontWeight="600"
+                                                                color="gray.700"
+                                                            >
+                                                                {resource.name}
+                                                            </Text>
+                                                            <HStack gap={2}>
+                                                                <Icon as={FaDownload} fontSize="xs" color="gray.500" />
+                                                                <Text fontSize="xs" color="gray.500" textTransform="uppercase">
+                                                                    {resource.type}
+                                                                </Text>
+                                                            </HStack>
+                                                        </VStack>
+                                                    </HStack>
+                                                </Box>
+                                            </ChakraLink>
+                                        ))}
+                                    </HStack>
+                                </VStack>
 
                                 {/* Chapters */}
                                 <VStack gap={4} align="stretch">
@@ -239,16 +334,17 @@ const Home = () => {
                                                             {chapter.name}
                                                         </Text>
                                                         <HStack gap={3}>
-                                                            <Badge
-                                                                colorScheme={chapter.difficulty === 'Easy' ? 'green' : 'orange'}
-                                                                variant="solid"
-                                                                fontSize="xs"
-                                                                px={2}
-                                                                py={1}
-                                                                borderRadius="md"
-                                                            >
-                                                                {chapter.difficulty}
-                                                            </Badge>
+                                                            <HStack gap={2}>
+                                                                <DifficultyDots difficulty={chapter.difficulty} />
+                                                                <Text
+                                                                    fontSize="xs"
+                                                                    color={chapter.questions > 0 ? "rgba(0,0,0,0.7)" : "gray.600"}
+                                                                    fontWeight="600"
+                                                                    textTransform="capitalize"
+                                                                >
+                                                                    {chapter.difficulty}
+                                                                </Text>
+                                                            </HStack>
                                                             <Badge
                                                                 bg={chapter.questions > 0 ? "rgba(255,255,255,0.25)" : "gray.200"}
                                                                 color={chapter.questions > 0 ? "white" : "gray.700"}

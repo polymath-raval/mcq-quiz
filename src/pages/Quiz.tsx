@@ -13,8 +13,14 @@ import {
 import type { Chapter, Question } from '../types/question'
 
 const Quiz = () => {
-    const { subject, chapter } = useParams()
+    const { subject, chapter, '*': subPath } = useParams()
     const navigate = useNavigate()
+
+    // Construct the full chapter path including subfolders
+    const fullChapterPath = subPath ? `${chapter}/${subPath}` : chapter
+
+    // Debug logging
+    console.log('URL params:', { subject, chapter, subPath, fullChapterPath })
     const [quizData, setQuizData] = useState<Chapter | null>(null)
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
     const [selectedAnswer, setSelectedAnswer] = useState<string>('')
@@ -24,15 +30,20 @@ const Quiz = () => {
 
     useEffect(() => {
         // In a real app, this would be an API call
-        import(`../data/questions/${subject}/${chapter}.json`)
+        const importPath = `../data/questions/${subject}/${fullChapterPath}.json`
+        console.log('Attempting to import:', importPath)
+
+        import(importPath)
             .then((data) => {
+                console.log('Successfully loaded quiz data')
                 setQuizData(data.default)
             })
-            .catch(() => {
+            .catch((error) => {
+                console.error('Error loading quiz:', error, 'Path:', importPath)
                 alert('Error loading quiz. Please try again later.')
                 navigate('/')
             })
-    }, [subject, chapter, navigate])
+    }, [subject, fullChapterPath, navigate])
 
     if (!quizData) {
         return (

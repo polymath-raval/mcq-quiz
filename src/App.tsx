@@ -51,7 +51,7 @@ function App() {
         >
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/quiz/:subject/:chapter" element={<Quiz />} />
+            <Route path="/quiz/:subject/:chapter/*" element={<Quiz />} />
           </Routes>
         </Box>
       </Box>
